@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\CORE">
+      <UniqueIdentifier>{ce297bc4-4ee5-48e7-9580-49974375e68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\CORE">
+      <UniqueIdentifier>{649c1a79-a228-423c-8547-1f17c294914e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\maps">
+      <UniqueIdentifier>{7e28d2ed-eb86-4ddd-92be-c797f773f61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\maps">
+      <UniqueIdentifier>{a400c14c-f5f7-4130-b915-2dadff21b526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GameClasses">
+      <UniqueIdentifier>{9f712e88-bfb6-40ef-8c02-91b90dee27fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\GameClasses">
+      <UniqueIdentifier>{a3f05c0a-5e16-4e64-b806-06ebf4181467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test_Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_map.cpp">
+      <Filter>Исходные файлы\maps</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandler.cpp">
+      <Filter>Исходные файлы\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="Base_class.cpp">
+      <Filter>Исходные файлы\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_class.cpp">
+      <Filter>Исходные файлы\GameClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMode.cpp">
+      <Filter>Исходные файлы\GameClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>Файлы заголовков\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_map.h">
+      <Filter>Файлы заголовков\maps</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandler.h">
+      <Filter>Файлы заголовков\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="Base_class.h">
+      <Filter>Файлы заголовков\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_class.h">
+      <Filter>Файлы заголовков\GameClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMode.h">
+      <Filter>Файлы заголовков\GameClasses</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
